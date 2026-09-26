@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="个人作品集 - 展示我的作品、抖音视频与小红书内容" />
+  <title>武子涵 | 个人作品集</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- 预加载器 (and2es 风格) -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-text">武子涵 · Portfolio</div>
+      <div class="preloader-line"></div>
+    </div>
+  </div>
+
+  <!-- 顶部导航 -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-dot"></span>
+        MyPortfolio
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">首页</a>
+        <a href="#about" class="nav-link">关于我</a>
+        <a href="#works" class="nav-link">我的作品</a>
+        <a href="#douyin" class="nav-link">抖音</a>
+        <a href="#xhs" class="nav-link">小红书</a>
+        <a href="#contact" class="nav-link">联系我</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero 区域 -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">👋 你好，我是</p>
+        <h1 class="hero-name">武子涵</h1>
+        <h2 class="hero-title">新媒体运营 / 内容创作者</h2>
+        <p class="hero-desc">
+          青岛农业大学传播学本科，专注内容策划与新媒体运营。
+          曾在网易、4A 广告公司实习，擅长小红书爆款打造、用户洞察与数据驱动内容迭代，
+          单篇笔记最高曝光 10W+，累计内容曝光 30W+。
+        </p>
+        <div class="hero-actions">
+          <a href="#works" class="btn btn-primary">查看作品</a>
+          <a href="#contact" class="btn btn-outline">联系我</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">3</span>
+            <span class="stat-label">段实习经历</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">30W+</span>
+            <span class="stat-label">累计内容曝光</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">10W+</span>
+            <span class="stat-label">单篇最高阅读</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <div class="avatar-ring">
+          <div class="avatar">
+            <!-- 替换为你的头像图片 -->
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=professional%20avatar%20portrait%20friendly%20creator%20minimal%20background&image_size=square_hd" alt="头像" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="向下滚动">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- 关于我 -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">关于我</h2>
+        <p class="section-sub">认识一下真实的我</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">✍️</div>
+          <h3>内容策划</h3>
+          <p>传播学专业背景，兼具文案撰写、平面设计、视频剪辑全链路能力。</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">�</div>
+          <h3>用户洞察</h3>
+          <p>熟悉年轻群体内容偏好，具备用户调研、需求挖掘、内容分层分发经验。</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">�</div>
+          <h3>数据驱动</h3>
+          <p>熟练使用 Excel 复盘分析，以数据驱动内容迭代，具备 AI 工具辅助能力。</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🤖</div>
+          <h3>AI 应用</h3>
+          <p>熟练运用豆包搭建内容生产 Skill，实现内容批量生产与创作提效。</p>
+        </div>
+      </div>
+      <div class="about-bio">
+        <h3>个人简介</h3>
+        <p>
+          你好！我是武子涵，青岛农业大学传播学专业本科生。我热爱内容创作与新媒体运营，
+          曾在网易、大鱼三千文化传播、深度传媒（4A 广告公司）担任内容运营实习生，
+          参与小红书账号矩阵运营、直播内容策划与品牌直播间运营。擅长从用户洞察出发，
+          结合数据复盘持续优化内容策略，具备单篇 10W+ 曝光、万赞爆款的实操经验。
+        </p>
+        <div class="skills">
+          <span class="skill-tag">内容创作</span>
+          <span class="skill-tag">小红书运营</span>
+          <span class="skill-tag">用户洞察</span>
+          <span class="skill-tag">数据复盘</span>
+          <span class="skill-tag">直播运营</span>
+          <span class="skill-tag">AI 提效</span>
+          <span class="skill-tag">PS / PR / AE</span>
+          <span class="skill-tag">Excel</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 我的作品 -->
+  <section id="works" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Works</span>
+        <h2 class="section-title">我的作品</h2>
+        <p class="section-sub">精选创作合集</p>
+      </div>
+      <div class="works-filter">
+        <button class="filter-btn active" data-filter="all">全部</button>
+        <button class="filter-btn" data-filter="xiaohongshu">小红书</button>
+        <button class="filter-btn" data-filter="live">直播运营</button>
+        <button class="filter-btn" data-filter="selfmedia">自媒体</button>
+      </div>
+      <div class="works-grid" id="worksGrid">
+        <div class="work-card" data-category="xiaohongshu">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=xiaohongshu%20social%20media%20content%20marketing%20pink%20aesthetic&image_size=landscape_4_3" alt="网易小红书运营" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>网易小蜜蜂 · 小红书矩阵运营</h3>
+            <p>统筹 3 个账号矩阵，单月产出 92 篇笔记，累计曝光 10W+，涨粉 2000+</p>
+          </div>
+        </div>
+        <div class="work-card" data-category="live">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=livestream%20studio%20broadcasting%20content%20creation%20warm%20lighting&image_size=landscape_4_3" alt="大鱼三千直播运营" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>大鱼三千 · 直播内容运营</h3>
+            <p>从 0 到 1 账号人设定位，3 个月涨粉 3.5 万，单场最高观看 30W 人次</p>
+          </div>
+        </div>
+        <div class="work-card" data-category="live">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=brand%20livestream%20shopping%20ecommerce%20product%20promotion&image_size=landscape_4_3" alt="深度传媒品牌直播" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>深度传媒 · 石头品牌直播</h3>
+            <p>4A 广告公司品牌直播间运营，助力双十一单日 GMV 达 260 万+</p>
+          </div>
+        </div>
+        <div class="work-card" data-category="selfmedia">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=kpop%20fan%20edit%20content%20aesthetic%20pink%20purple%20creative&image_size=landscape_4_3" alt="韩娱二创账号" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>韩娱二创账号 · 账号主理人</h3>
+            <p>聚焦爱豆二创与热点梗传播，单条最高播放 20 万次，点赞率高于赛道均值 3 倍</p>
+          </div>
+        </div>
+        <div class="work-card" data-category="selfmedia">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=cute%20avatar%20illustration%20kawaii%20pink%20pastel%20aesthetic&image_size=landscape_4_3" alt="头像分享账号" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>头像分享账号 · 爆款笔记</h3>
+            <p>打造单篇 10W+ 曝光、万赞爆款笔记，两账号累计净增粉丝 340+</p>
+          </div>
+        </div>
+        <div class="work-card" data-category="xiaohongshu">
+          <div class="work-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=content%20strategy%20data%20analysis%20social%20media%20dashboard%20pink&image_size=landscape_4_3" alt="内容策略与数据复盘" />
+            <div class="work-overlay">
+              <a href="#" class="work-link">查看详情 →</a>
+            </div>
+          </div>
+          <div class="work-info">
+            <h3>内容策略 · 数据驱动迭代</h3>
+            <p>用户调研 300+ 份问卷，互动率提升 30%，收藏率提升至 5%+</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 抖音作品 -->
+  <section id="douyin" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-douyin">Douyin</span>
+        <h2 class="section-title">抖音作品</h2>
+        <p class="section-sub">短视频创作合集</p>
+      </div>
+      <div class="social-intro">
+        <div class="social-icon douyin-icon">🎵</div>
+        <div>
+          <h3>关注我的抖音</h3>
+          <p>@武子涵 · 分享生活创意与趣味短视频</p>
+        </div>
+        <a href="https://www.douyin.com/" target="_blank" rel="noopener" class="btn btn-douyin">前往抖音</a>
+      </div>
+      <div class="video-grid">
+        <!-- 抖音视频卡片，替换 src 为你的视频封面和链接 -->
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=short%20video%20thumbnail%20lifestyle%20vlog%20vibrant&image_size=portrait_16_9" alt="抖音视频1" />
+            <div class="play-btn">▶</div>
+            <span class="video-views">12.5W 播放</span>
+          </div>
+          <p class="video-title">一分钟带你看懂设计趋势</p>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=short%20video%20thumbnail%20food%20cooking%20delicious&image_size=portrait_16_9" alt="抖音视频2" />
+            <div class="play-btn">▶</div>
+            <span class="video-views">8.3W 播放</span>
+          </div>
+          <p class="video-title">在家也能做的网红美食</p>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=short%20video%20thumbnail%20travel%20adventure%20scenic&image_size=portrait_16_9" alt="抖音视频3" />
+            <div class="play-btn">▶</div>
+            <span class="video-views">25.6W 播放</span>
+          </div>
+          <p class="video-title">小众旅行地推荐</p>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=short%20video%20thumbnail%20tech%20gadget%20review&image_size=portrait_16_9" alt="抖音视频4" />
+            <div class="play-btn">▶</div>
+            <span class="video-views">5.1W 播放</span>
+          </div>
+          <p class="video-title">数码好物开箱测评</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 小红书作品 -->
+  <section id="xhs" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-xhs">Xiaohongshu</span>
+        <h2 class="section-title">小红书笔记</h2>
+        <p class="section-sub">生活分享与好物推荐</p>
+      </div>
+      <div class="social-intro">
+        <div class="social-icon xhs-icon">📕</div>
+        <div>
+          <h3>关注我的小红书</h3>
+          <p>@武子涵 · 分享生活方式与实用干货</p>
+        </div>
+        <a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener" class="btn btn-xhs">前往小红书</a>
+      </div>
+      <div class="xhs-grid">
+        <!-- 小红书笔记卡片，替换图片和链接 -->
+        <a href="#" class="xhs-card">
+          <div class="xhs-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=lifestyle%20blog%20post%20aesthetic%20minimal%20flatlay&image_size=portrait_4_3" alt="小红书笔记1" />
+          </div>
+          <div class="xhs-body">
+            <h4>超实用的家居收纳技巧</h4>
+            <p class="xhs-meta">
+              <span>❤️ 2.3W</span>
+              <span>💬 560</span>
+            </p>
+          </div>
+        </a>
+        <a href="#" class="xhs-card">
+          <div class="xhs-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=beauty%20skincare%20products%20flatlay%20aesthetic&image_size=portrait_4_3" alt="小红书笔记2" />
+          </div>
+          <div class="xhs-body">
+            <h4>换季护肤好物分享</h4>
+            <p class="xhs-meta">
+              <span>❤️ 1.8W</span>
+              <span>💬 420</span>
+            </p>
+          </div>
+        </a>
+        <a href="#" class="xhs-card">
+          <div class="xhs-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=fashion%20outfit%20street%20style%20photography&image_size=portrait_4_3" alt="小红书笔记3" />
+          </div>
+          <div class="xhs-body">
+            <h4>秋日穿搭灵感合集</h4>
+            <p class="xhs-meta">
+              <span>❤️ 3.1W</span>
+              <span>💬 890</span>
+            </p>
+          </div>
+        </a>
+        <a href="#" class="xhs-card">
+          <div class="xhs-img">
+            <img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=coffee%20shop%20aesthetic%20cozy%20interior&image_size=portrait_4_3" alt="小红书笔记4" />
+          </div>
+          <div class="xhs-body">
+            <h4>宝藏咖啡店打卡地图</h4>
+            <p class="xhs-meta">
+              <span>❤️ 9.5K</span>
+              <span>💬 210</span>
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系我 -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Contact</span>
+        <h2 class="section-title">联系我</h2>
+        <p class="section-sub">期待与你合作或交流</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📧</div>
+          <h3>邮箱</h3>
+          <p>2063935132@qq.com</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📱</div>
+          <h3>手机</h3>
+          <p>19553973151</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">🎵</div>
+          <h3>抖音</h3>
+          <p>@武子涵</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">�</div>
+          <h3>小红书</h3>
+          <p>@武子涵</p>
+        </div>
+      </div>
+      <div class="social-links">
+        <a href="https://v.douyin.com/tdp2pM0Ss8c/" target="_blank" rel="noopener" class="social-link" title="抖音">🎵</a>
+        <a href="https://www.xiaohongshu.com/" target="_blank" rel="noopener" class="social-link" title="小红书">📕</a>
+        <a href="mailto:2063935132@qq.com" class="social-link" title="邮箱">✉️</a>
+        <a href="tel:19553973151" class="social-link" title="电话">📱</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 武子涵. 保留所有权利.</p>
+      <p class="footer-sub">Made with ❤️ · 部署于 GitHub Pages</p>
+    </div>
+  </footer>
+
+  <!-- 回到顶部 -->
+  <button class="back-to-top" id="backToTop" aria-label="回到顶部">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
